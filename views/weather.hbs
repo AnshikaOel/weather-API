@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon"href=".\photos\download1.jpg" type="image/X-icon"></a>
+</head>
+<body>
+    <div class ="topNav">
+        <a href="/" class="A1" id="A11">ANSHIKA'S WEATHER API</a>
+        <a href="/" class="A1"> HOME </a>
+        <a href="/weather"class="A1"> WEATHER </a>
+        <a href="/about" style="float: right;" class="A2"> ABOUT </a>
+    </div>
+    
+    <br/><br/><br/><br/><br/><br/>
+  <fieldset class="W1">
+    <div class="Search" >
+           <form class="temp_form">
+               <input type="text" id="cityName" placeholder="Enter a city name" autocomplete="off">
+               <input type="submit" value="Search" id="submitbtn" >
+           </form>
+    </div>
+  </fieldset>
+    <br/>
+    <fieldset class="W2">
+    <div class="tempInformation"> 
+        <div class="top_layer">
+            <p id="day">Tuesday</p>
+            <p id="today_date">13 oct</p>
+        </div>
+        <div class="main_layer">
+            <p id="city_name ">Get output here</p>
+            <div class="middle_layer data_hide">
+                <p id="temp"><span id="temp_real_val">0</span><sup>o</sup>C</p>
+                <p id="temp_status"></p>
+                {{!-- <i class="fa fa-cloud" aria-hidden="true"></i> --}}
+            </div>
+        </div>
+    </div>
+    </fieldset>
+    <br/><br/><br/><br/><br/><br/>
+    <footer>
+        <p>Created by ANSHIKA GUPTA </p>
+    </footer>
+    <script src="/public/js/main.js"> </script>
+</body>
+    
+</html>
